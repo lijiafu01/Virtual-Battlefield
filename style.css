@@ -72,3 +72,33 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Support Section */
+.support-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.support-item {
+    display: flex;
+    align-items: center; /* Căn giữa dọc hình ảnh và văn bản */
+    gap: 10px; /* Khoảng cách giữa hình ảnh và văn bản */
+}
+
+.support-logo {
+    width: 30px; /* Kích thước nhỏ hơn */
+    height: auto;
+    display: inline-block;
+}
+/* Link Styling */
+a {
+    color: #007BFF; /* Màu xanh cho liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    font-weight: bold; /* In đậm để dễ nhìn */
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+    color: #0056b3; /* Màu xanh đậm hơn khi hover */
+}
