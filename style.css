@@ -102,3 +102,23 @@ a:hover {
     text-decoration: underline; /* Gạch chân khi hover */
     color: #0056b3; /* Màu xanh đậm hơn khi hover */
 }
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.meta-store-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.meta-store-link a {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.meta-store-link a:hover {
+    text-decoration: underline;
+}
